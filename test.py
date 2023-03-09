@@ -277,7 +277,7 @@ def closest_color(r, g, b):
     
     return closest_color
 
-with Image.open('/home/pie/Documents/local-dev/ascii-art-gen/image.png') as image:
+with Image.open('image.png') as image:
     image = image.convert("RGB")
     image_pixels = image.load()
     width, height = image.size
